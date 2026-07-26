@@ -4,7 +4,10 @@ int main()
 {
     float num1, num2, total;
     int choice;
+    char ch;
+    do{
 
+    
     printf("Simple Calculator\n");
 
     printf("Enter first number: ");
@@ -53,7 +56,11 @@ int main()
 
         default:
             printf("\nInvalid Choice");
+        
     }
-
+    printf("\nDo you want to continue? (y/n): ");
+    scanf(" %c", &ch);
+    }while(ch == 'y' || ch == 'Y');
+    
     return 0;
 }

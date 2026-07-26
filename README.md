@@ -10,6 +10,8 @@ This is a simple calculator developed using C programming. It performs basic ari
 - Subtraction
 - Multiplication
 - Division
+- Division by zero handling
+- Repeat calculations (Y/N)
 
 ## Concepts Used
 
